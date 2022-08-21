@@ -1,15 +1,41 @@
-main{
-    display:inline-flex;
-    justify-content: flex-start;
+header{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+    align-items: center;
+    background:teal;
 }
-
-nav{
-    display: inline-flex;
-    justify-content: right;
+header main{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 5px;
 }
-
-nav a{
+.primary-nav a{
     margin-right: 20px;
     text-decoration: none;
     color: black;
+    font-size: 15px;
+}
+
+
+.bio{
+    float: left;
+    width: 30%;
+    height: 650px;
+    margin: 20px;
+    background: teal;
+}
+.bio-image{
+    display: block;
+    align-content: center;
+    max-width: 100%;
+    padding: 15px;
+}
+.bio p{
+    text-indent: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
