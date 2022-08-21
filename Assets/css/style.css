@@ -1,0 +1,15 @@
+main{
+    display:inline-flex;
+    justify-content: flex-start;
+}
+
+nav{
+    display: inline-flex;
+    justify-content: right;
+}
+
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
