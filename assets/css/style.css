@@ -1,0 +1,58 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    margin: 1.5%;
+    height: 30px;
+    align-items: center;
+    background:teal;
+}
+header main{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.primary-nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+.bio{
+    float: left;
+    height: 650px;
+    width: 30%;
+    margin-right: 20px;
+    margin-left: 1.5%;
+    background: teal;
+}
+.bio p{
+    text-indent: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+#bio-image{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px;
+}
+
+
+.subjects{
+    float: right;
+    width: 65.5%;
+    height: 650px;
+    margin-right: 1.5%;
+    background: lightgray;
+}
+
+.subject-tabs{
+    display: flex;
+    max-width: 25%;
+    max-height: 25%;
+    margin: 20px;
+    max-width: 50%;
+}
