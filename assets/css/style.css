@@ -36,7 +36,7 @@ header main{
     margin-top: 1.5%;
     float: left;
     height: 650px;
-    width: 31%;
+    width: 22.5%;
     background: teal;
 }
 .bio p{
@@ -54,33 +54,16 @@ header main{
 
 /* Main content */
 
-.subjects1{
+.subjects{
     display: inline;
     float: right;
-    width: 33%;
-    margin-right: 1.5%;
-    margin-top: 1.5%;
+    width: 76%;
     background-color: gray;
 }
-
-.subjects2{
-    display: inline;
-    float: right;
-    width: 33%;
-    margin-top: 1.5%;
-    background-color: gray;
-}
-
-/* .subjects2{
-    display: flex;
-    flex-wrap: wrap;
-    width: 34%;
-    background-color: gray;
-} */
 .subject-tabs{
-    display: flex;
+    display: inline;
     max-height: 25%;
-    max-width: 100%;
-    margin
+    max-width: 49.5%;
     background: black;
+    border:0px;
 }
