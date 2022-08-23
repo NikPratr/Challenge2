@@ -51,6 +51,7 @@ header main{
 
 .subject-tabs{
     display: flex;
+    style= width: 300px; height: 337px; object-fit: none;
     max-width: 25%;
     max-height: 25%;
     margin: 20px;
