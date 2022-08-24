@@ -14,7 +14,7 @@ header{
     margin-right: 1.5%;
     height: 30px;
     align-items: center;
-    background: rgba(0, 128, 128, 0.750);
+    background: rgba(0, 128, 128, 0.650);
 }
 header main{
     font-size: 20px;
@@ -35,9 +35,9 @@ header main{
     margin-left: 1.5%;
     margin-top: 1.5%;
     float: left;
-    height: 650px;
+    height: 100%;
     width: 22.5%;
-    background: rgba(0, 128, 128, 0.750);
+    background: rgba(0, 128, 128, 0.650);
 }
 .bio p{
     text-indent: 30px;
@@ -59,18 +59,46 @@ header main{
     flex-wrap: wrap;
     width: 76%;
 }
+.subject-tabs p{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 100%
+}
 .subject-tabs{
     display: block;
-    height: 50%;
-    max-width: 46%;
+    width: 46%;
     margin: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
     padding-top: 2%;
-    padding-bottom: 7%;
+    padding-bottom: 2.5%;
     background: black;
     border-radius: 1.5%;
 }
-.image-text{
-    color:whitesmoke;
+.big-tab{
+    float:right;
+    display: block;
+    width: 100%;
+    margin: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: black;
+    border-radius: 1.5%;
+}
+.big-tab p{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 100%
+}
+.big-tab img {
+    width: 100%;
+}
+.subject-tabs img{
+    width: 100%;
 }
