@@ -14,7 +14,7 @@ header{
     margin-right: 1.5%;
     height: 30px;
     align-items: center;
-    background: teal;
+    background: rgba(0, 128, 128, 0.750);
 }
 header main{
     font-size: 20px;
@@ -37,7 +37,7 @@ header main{
     float: left;
     height: 650px;
     width: 22.5%;
-    background: teal;
+    background: rgba(0, 128, 128, 0.750);
 }
 .bio p{
     text-indent: 30px;
@@ -55,15 +55,22 @@ header main{
 /* Main content */
 
 .subjects{
-    display: inline;
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
     width: 76%;
-    background-color: gray;
 }
 .subject-tabs{
-    display: inline;
-    max-height: 25%;
-    max-width: 49.5%;
+    display: block;
+    height: 50%;
+    max-width: 46%;
+    margin: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 7%;
     background: black;
-    border:0px;
+    border-radius: 1.5%;
+}
+.image-text{
+    color:whitesmoke;
 }
