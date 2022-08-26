@@ -18,23 +18,34 @@
         </main>
 
         <nav class="primary-nav">
-            <a href="#subjects">About Me</a>
-            <a href="#">Work</a>
+            <a href="#bio">About Me</a>
+            <a href="#subjects">Work</a>
             <a href="#footer-text">Contact Me</a>
-            <a href="#">Resume</a>
+            <a href="../Challenge2/assets/Resume.txt" target ="_blank">Resume</a>
         </nav>
     </header>
 
 
-    <section class="bio">
+    <section id="bio">
         <img id="bio-image" src="../Challenge2/assets/images/MyPicture.jpg"/>
             
         <p>
-            Information about me
+            My name is Nick Prater. I graduated from Wright State University in 2021 with a BS in Psychology, but have decided to pursue a career in coding; I am currently enrolled in Fullstack Coding Bootcamp. I have also worked extensively microsoft office.
         </p>
+
+        <p>I live in West Chester, Ohio, which is about midway between Cincinnati and Dayton. I have a novel I have been in the process of writing for over three years now. I also play the piano, draw, and make a lot of spreadsheets and interactive forms with Microsoft Excel because I'm a big nerd.</p>
     </section>
     
-    <section class="subjects">
+
+    <section id="subjects">
+        <div class="big-tab">
+            <a href="https://nikpratr.github.io/01-Code-Refactor/" target="_blank"><img src="../Challenge2/assets/images/Challenge1.jpg"/></a>
+            <div class="big-tab-texts">
+                <a id = "deploy" href="https://nikpratr.github.io/01-Code-Refactor/" target="_blank">Deployed Link</a>
+                <p>Code Refactor</p>
+                <a id = "site" href="https://github.com/NikPratr/01-Code-Refactor" target="_blank">Github Repository</a>
+            </div>
+        </div>
         <div class="subject-tabs">
             <img src="../Challenge2/assets/images/SubjectImage1.jpg"/>
             <p>Placeholder 1</p>
@@ -51,21 +62,19 @@
             <img src="../Challenge2/assets/images/SubjectImage4.jpg"/>
             <p>Placeholder 4</p>
         </div>
-        <div class="big-tab">
-            <img src="../Challenge2/assets/images/Challenge1.jpg"/>
-            <p>Code Refactor</p>
-        </div>
     </section>
 
 
     <footer>
-        <main>
+        <h1>
             Contact Me
-        </main>
+        </h1>
 
-        <section id="footer-text">
-            <p>Email: NikPratr@gmail.com</p>
-            <p>Phone Number: (513) 123-4567</p>
-        </section>
-    </footer>
+        <div id="footer-text">
+            <p >Email: NikPratr@gmail.com</p>
+            <p >Phone Number: (513) 123-4567</p>
+        </div>
+        </footer>
+
+        <div id="footer-spacing">proper spacing</div>
 </body>

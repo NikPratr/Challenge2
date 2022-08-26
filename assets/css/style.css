@@ -1,6 +1,6 @@
 body{
     height: 100%;
-    background-image: url("../images/Background1.jpg");
+    background-image: url("../images/Background2.png");
     background-size: cover;
 }
 
@@ -12,7 +12,7 @@ header{
     margin-top: 1.5%;
     margin-left: 1.5%;
     margin-right: 1.5%;
-    height: 30px;
+    height: 5%;
     align-items: center;
     background: rgba(0, 128, 128, 0.650);
 }
@@ -31,19 +31,19 @@ header main{
 
 /* Bio Section */
 
-.bio{
+#bio{
     margin-left: 1.5%;
     margin-top: 1.5%;
     float: left;
-    height: 100%;
     width: 22.5%;
     background: rgba(0, 128, 128, 0.650);
 }
-.bio p{
-    text-indent: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+#bio p{
+    text-align: justify;
+    text-indent: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 #bio-image{
     display: flex;
@@ -54,7 +54,7 @@ header main{
 
 /* Main Content */
 
-.subjects{
+#subjects{
     display: flex;
     flex-wrap: wrap;
     width: 76%;
@@ -63,7 +63,7 @@ header main{
     margin-top: 5%;
     display: flex;
     justify-content: center;
-    color:white;
+    color:lightgray;
     font-size: 100%
 }
 .subject-tabs{
@@ -89,12 +89,19 @@ header main{
     background: black;
     border-radius: 1.5%;
 }
-.big-tab p{
+.big-tab-texts{
     margin-top: 2%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    color:white;
+    color:lightgray;
     font-size: 100%
+}
+.big-tab-texts a{
+    color: lightgray;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .big-tab img {
     width: 100%;
@@ -108,14 +115,13 @@ header main{
 footer{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5%;
     margin-left: 1.5%;
     margin-right: 1.5%;
-    height: 30px;
+    height: 5%;
     align-items: center;
     background: rgba(0, 128, 128, 0.650);
 }
-footer main{
+footer h1{
     font-size: 20px;
     font-weight: bolder;
     margin-left: 5px;
@@ -126,4 +132,11 @@ footer main{
     text-decoration: none;
     color: black;
     font-size: 15px;
+}
+
+/* I wanted there to be space between the fooer and the bottom of the page just as there is space between the header and the top of the page; this is the only way I could figure out how to do it */
+
+#footer-spacing{
+    color: rgba(255, 255, 255, 0);
+    height: 2%;
 }
